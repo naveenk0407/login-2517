@@ -1,0 +1,25 @@
+# - Means Comment, ignored by k8s
+
+# - We can write yaml scripts with .yaml or .yml as extension
+
+# Using YAML we represent k8s objects and thier properties
+
+# Simple Key values (one key & one value)
+key: value 
+name: ravi
+city: hyd
+zip: 500018
+
+# Dictionary / Map - Set of Key Values
+person:
+  name: ravi
+  city: hyd
+  zip: 500081
+
+# List / Arrays - Multiple Items
+courses:
+- devops
+- aws
+- azure
+- python
+
